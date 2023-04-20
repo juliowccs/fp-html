@@ -14,38 +14,37 @@
                 <header id="top">
                     <h1 class="textt" style="font-size: 350%; text-align: center;">HTML<sup> Linguagem de Marcação de Hipertexto</sup></h1>
                     <h3 class="textt" style="font-size: 180%; text-align: center;">Tutorial para iniciantes</h3>
-                    <section class="p" style="margin-top: -30px ;">
-                        <p id="html">
-                             <!--Inserção de imagem-->
-                            <img src="resource/html5.png" title="HTML5" alt="HTML5" Align="right" class="img">
-                            <!--Continuação das marcações do texto-->
-                            <strong><ins>HTML</ins></strong>
-                            <i>(Linguagem de Marcação de Hipertexto)</i> 
-                            é o bloco de construção mais básico da web.
-                            <mark> Define o significado e a estrutura do conteúdo da web.</mark> 
-                            Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento                                 <i>(JavaScript)</i> 
-                            de uma página da web.
-                            </p>
-                    </section>
-                    <nav>
-                        <ul class="nav">
-                            <li style="color:#fff"><a href="#top">Início</a></li>
-                            <li><a href="#html">HTML</a></li>
-                            <li><a href="#table">Tabelas</a></li>
-                            <li><a href="#chj">Sobre CSS, HTML e JS</a></li>
-                            <li><a href="#bottom">Rodapé</a></li>
-                        </ul>
-                    </nav>
+                    
                 </header>
-                
-            
-                
+                <section class="p" style="margin-top: -30px ;">
+                    <p id="html">
+                         <!--Inserção de imagem-->
+                        <img src="resource/html5.png" title="HTML5" alt="HTML5" Align="right" class="img">
+                        <!--Continuação das marcações do texto-->
+                        <strong><ins>HTML</ins></strong>
+                        <i>(Linguagem de Marcação de Hipertexto)</i> 
+                        é o bloco de construção mais básico da web.
+                        <mark> Define o significado e a estrutura do conteúdo da web.</mark> 
+                        Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento                                 <i>(JavaScript)</i> 
+                        de uma página da web.
+                        </p>
+                </section>
+                <!--Menu de navegação-->
+                <nav>
+                    <ul class="nav">
+                        <li class="navaimation" style="color:#fff"><a href="#top">Início</a></li>
+                        <li class="navaimation"><a href="#html" class="navaimation">HTML</a></li>
+                        <li class="navaimation"><a href="#table" class="navaimation">Tabelas</a></li>
+                        <li class="navaimation"><a href="#chj" >Sobre CSS, HTML e JS</a></li>
+                        <li class="navaimation"><a href="#bottom">Rodapé</a></li>
+                    </ul>
+                </nav> 
             </div>
             <!--Quebra de texto com linha-->
             <hr class="hr">
             <nav>
             </nav>
-            <section class="dis" id="table">
+            <section class="tlgroup" id="table">
                 <!--Desenvolvimento de uma tabela com descrição de tags-->
                 <section class="tablecontainer">
                     <table class="table" border="1" bordercolor="#fff">
@@ -101,28 +100,33 @@
                         </tfoot>
                     </table>
                 </section>
+                <!--Quebra de linha-->
                 <hr.hr>
+                <!--Lista-->
                 <section class="list">
-                    <strong>Protocolos da Web</strong>
-                    <ol type="I">
-                        <li>
-                            TCP/IP - Transmission Control Protocol/Internet Protocol
-                        </li>
-                        <li>
-                            HTTPS - Hyper Text Transfer Protocol Secure
-                        </li>
-                        <li>
-                            XMPP - Extensible Messaging and Presence Protocol
-                        </li>
-                        <li>
-                            POP - Post Office Protocol
-                        </li>
-                        <li>
-                            DHCP - Dynamic Host Configuration Protocol
-                        </li>
-                    </ol>
+                    <section class="minilist">
+                        <strong>Protocolos da Web</strong>
+                        <ol type="I">
+                            <li>
+                                TCP/IP - Transmission Control Protocol/Internet Protocol
+                            </li>
+                            <li>
+                                HTTPS - Hyper Text Transfer Protocol Secure
+                            </li>
+                            <li>
+                                XMPP - Extensible Messaging and Presence Protocol
+                            </li>
+                            <li>
+                                POP - Post Office Protocol
+                            </li>
+                            <li>
+                                DHCP - Dynamic Host Configuration Protocol
+                            </li>
+                        </ol>
+                    </section>
                 </section>
             </section>
+            <!--Grupos de containers-->
             <section class="flex" id="chj">
                 <section class="conteudo1">
                     <p class="textt">
@@ -155,6 +159,7 @@
             </section>
         </div>
     </body>
+    <!--Rodapé-->
     <footer id="bottom">
         <section class="foot">
             <section style="margin-top: -30px;">
@@ -172,7 +177,7 @@
                         Política de privacidade
                     </li>
                     <li>
-                        Fale conosco
+                        <a class="two" href="contato.html" style="color:#e47454;">Fale conosco</a>
                     </li>
                 </ul>
             </section>
@@ -228,8 +233,9 @@
                     <li>
                         Introdução ao Bootstrap
                     </li>
+                    <!--Abrir a página de contato-->
                     <li class="contato">
-                        <a class="two" href="contato.html" style="color:#e47454;">Fale conosco</a>
+                        <a class="two" href="contato.html" style="color:#e47454;" target="_blank">Fale conosco</a>
                     </li>
                 </ul>
             </section>

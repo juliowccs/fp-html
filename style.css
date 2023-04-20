@@ -18,15 +18,10 @@ section {
     margin: 10px
 }
 mark {
-    background-color:#e62e00;
+    background-color:#ef8b64;
     color:#000;
 }
-.dis {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .flex {
     display: flex;
     justify-content: space-around;
@@ -58,6 +53,13 @@ mark {
     justify-content: space-around;
     list-style-type: none;
     font-family: coolvetica;
+    font-size: 150%;
+}
+.navaimation {
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.navaimation:hover{
+    transform: scale(1.1,1.1);
 }
 a:link {
     color:#fff;
@@ -75,13 +77,21 @@ hr.hr {
         margin-left: 2px;
         margin-right: 2px;
       }
+.tlgroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .tablecontainer{
+    height: auto;
     padding: 10px;
-    width: 600px;
+    width: auto;
     border-radius: 8px;
     border: 2px;
     background-color: #ef8b64;
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    display: flex;
+    flex-direction: row;
 }
 .tablecontainer::after{
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -93,7 +103,7 @@ hr.hr {
     color: #ef8b64;
 }
 .table {
-    width: 600px;
+    width: auto;
     padding: 10px;
     border-radius: 8px;
     border: 2px solid #fff;
@@ -102,6 +112,8 @@ hr.hr {
     background-color: #ef8b64;
     font-family: coolvetica;
     font-size: 150%;
+    display: flex;
+    flex-direction: column;
     }
 .table:hover{
     background-color: #fff;
@@ -111,19 +123,17 @@ hr.hr {
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .list  {
-    padding: 10px;
-    width: auto;
+    height:auto;
+    display: flex;
+    flex-direction: column;
     margin: 20px;
-    margin-top: 150px;
-    margin-left:300px;
-    margin-right:40px;
+    margin-top: 3rem;
+    margin-left:3rem;
     border-radius: 8px;
-    border: 2px;
     color: #fff;
     background-color: #ef8b64;
-    font-size: 100%;
+    font-size: 170%;
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-    scale: 190%;
     }
 
 .list::after{
@@ -135,9 +145,10 @@ hr.hr {
     background-color: #fff;
     color: #ef8b64;
 }
-.list::selection{
-    color: #fff;
-    background: #e47454;
+.minilist{
+    border: 5px solid #fff;
+    border-radius: 8px;
+    padding: 10px;
 }
 .conteudo1{
     background-color: #2965f1;
